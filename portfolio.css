@@ -1,0 +1,117 @@
+.left-side{
+    height: 600px;
+    width: 400px;
+    background-color: aqua;
+    text-align: center;
+    position: fixed;
+    border-radius: 10px;
+}
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.name{
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: deeppink;
+}
+.profile{
+    font-size: 20px;
+    color: blue;
+}
+ul{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(252, 49, 174);
+    
+}
+li a:hover{
+     color: red;
+     background-color: whitesmoke;
+     /* border-radius: 10px; */
+     text-decoration: underline;
+}
+.main-section{
+    position: fixed;
+    margin-left: 450px;
+}
+.main-photo{
+    height: 400px;
+    margin-left: 300px;
+    border-radius: 50% 0;
+    background-color: aqua;
+
+}
+
+
+
+
+/* contect information */
+.main-contect{
+    background-color: aqua;
+    height: 600px;
+    width: 100%;
+    
+}
+.contect{
+    height: 600px;
+    width: 300px;
+    background-color: rgb(188, 204, 224);
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.contect-box{
+    padding: 20px;  
+    
+
+}
+.nam{
+   height: 30px;
+   width: 200px;
+   margin: 10px;
+}
+.num{
+   height: 30px;
+   width: 200px;
+   margin: 10px;
+}
+.mail{
+   height: 30px;
+   width: 200px;
+   margin: 10px;
+}
+.other-information{
+   height: 200px;
+   width: 200px;
+   margin: 10px;
+   flex-wrap: wrap;
+}
+button{
+    margin-left: 165px;
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
